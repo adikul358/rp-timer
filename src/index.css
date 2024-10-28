@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, div#root {
+  @apply bg-black text-white min-h-screen flex flex-col justify-center items-center flex-1;
+}
+
+.fade-in {
+  animations: fadeIn .5s;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
