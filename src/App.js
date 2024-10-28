@@ -7,7 +7,7 @@ const ClockDigits = ({ t }) => {
     return (
         <div className={`-mt-16 grid text-right w-max ${t > TIME ? "text-red-500" : t > TIMES[0] ? "text-orange-300" : ""}`} style={{
             fontSize: "300px",
-            gridTemplateColumns: "repeat(2, 186px) 95px repeat(2, 186px)"
+            gridTemplateColumns: "repeat(2, 170px) 95px repeat(2, 170px)"
         }}>
             <span>{Math.floor(t / 600)}</span>
             <span>{Math.floor(t / 60) % 10}</span>
