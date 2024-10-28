@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-const TIMES = [900, 300]
+const TIMES = [15, 5]
 const TIME = TIMES.reduce((p, c) => p+c)
 
 const ClockDigits = ({ t }) => {
